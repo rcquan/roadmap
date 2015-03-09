@@ -64,25 +64,25 @@ For this analysis, we will need 7 major pieces of data for each of these major c
 
 These data will be used to estimate the following elements.
 
-1. **Interactive disease prevalence data maps**. This will be supplied by the NYCDOHMH for the smallest geographic units of analysis possible. For each unit, we will need roughly 100 cases in the numerator as a minimum. We can use blurring or other techniques to obtain estimates. These estimates should be available from their 2011 analysis. We will require these data for 5 age groups (0-4, 5-14, 15-24, 25-44, 45-64, 65-75, 75+). The challenge is that the NYCHANES and NSDH data are very out of date and the n is too low in both surveys. To increase their utility, we should use childhood (0-14), late adolescence/early adulthood (15-24), adulthood (25-64), and later life (65+). We will need to do a literature and data review to see what kinds of other surveys might be out there for NYC. 
+**Interactive disease prevalence data maps**. This will be supplied by the NYCDOHMH for the smallest geographic units of analysis possible. For each unit, we will need roughly 100 cases in the numerator as a minimum. We can use blurring or other techniques to obtain estimates. These estimates should be available from their 2011 analysis. We will require these data for 5 age groups (0-4, 5-14, 15-24, 25-44, 45-64, 65-75, 75+). The challenge is that the NYCHANES and NSDH data are very out of date and the n is too low in both surveys. To increase their utility, we should use childhood (0-14), late adolescence/early adulthood (15-24), adulthood (25-64), and later life (65+). We will need to do a literature and data review to see what kinds of other surveys might be out there for NYC. 
 
-2. **DALYs**. The DALY is a year of life lived in perfect health and consists of two elements: 1) YLL (years of life lost) and 2) YLD (years lost to disability).  We can estimate DALYs using NYC mortality counts stratified by age, sex, and race to compute YLL using 2013 mortality data and mean age of onset from the previous NYCDOHMH study. For YLLs, we will need 2010 disability weights and the mean age of onset. The following elements may be obtained from the GBD data:
+**DALYs**. The DALY is a year of life lived in perfect health and consists of two elements: 1) YLL (years of life lost) and 2) YLD (years lost to disability).  We can estimate DALYs using NYC mortality counts stratified by age, sex, and race to compute YLL using 2013 mortality data and mean age of onset from the previous NYCDOHMH study. For YLLs, we will need 2010 disability weights and the mean age of onset. The following elements may be obtained from the GBD data:
 
-* Duration stratified by sex and age groups (national and GBD study)
-* RR mortality stratified by sex and age groups (national and GBD study)
-* Remission rate (national and GBD study). We should do a literature review here to see if there are any data from NYC. Rufina Lee has data on intervention impacts on remission rates for NYC. This can be used to estimate the CEA of prevention effectiveness data and burden of disease.
-* Case fatality (national and GBD study)
-* Disability weight used in the GBD 2010 study
+ * Duration stratified by sex and age groups (national and GBD study)
+ * RR mortality stratified by sex and age groups (national and GBD study)
+ * Remission rate (national and GBD study). We should do a literature review here to see if there are any data from NYC. Rufina Lee has data on intervention impacts on remission rates for NYC. This can be used to estimate the CEA of prevention effectiveness data and burden of disease.
+ * Case fatality (national and GBD study)
+ * Disability weight used in the GBD 2010 study
 
 The NYCDOHMH previously estimated YLD based mainly on national rates where 1) YLD = (YLD/YLL from national study) * (YLL from NYC mortality data); 2) YLD = (YLD/YLL from national study) * (NYC population ). We should just repeat this with 2013 mortality data and 2010 rates. Where we can find them, we should also modify the prevalence data and other data elements for NYC.
 
-3. **Costs**. The cost data merely need to be collected from literature reviews. To standardize these, we need to extract the total lost productivity and leisure time losses for active disease. These are then multiplied by median local wage for New York City and by the duration of the disease from the GBD study. Medical costs need to be separately extracted and adjusted to reflect NYC costs. We need to be careful to separate out studies that use charges from those that use costs. Those that use charges need to be adjusted to costs. My textbook has these tables in the back. All costs need to be adjusted to 2014 dollars using the consumer price index.
+**Costs**. The cost data merely need to be collected from literature reviews. To standardize these, we need to extract the total lost productivity and leisure time losses for active disease. These are then multiplied by median local wage for New York City and by the duration of the disease from the GBD study. Medical costs need to be separately extracted and adjusted to reflect NYC costs. We need to be careful to separate out studies that use charges from those that use costs. Those that use charges need to be adjusted to costs. My textbook has these tables in the back. All costs need to be adjusted to 2014 dollars using the consumer price index.
 
 The Uniform Crime Reports has the total costs of incarceration. We need to figure out the percentage of these are linked to mental illness/substance abuse from the literature.
 
 We need to get an estimate of social service utilization. I believe we can get these from Robin Hood.
 
-4. **Program effectiveness**.  We need to obtain the cost of prevention programs and their impact on the duration of illness from Rufina Lee. We can’t get estimates of impacts on YLLs. In my opinion, we should assume that these are between zero and 100% and report them as a sensitivity analysis.
+**Program effectiveness**.  We need to obtain the cost of prevention programs and their impact on the duration of illness from Rufina Lee. We can’t get estimates of impacts on YLLs. In my opinion, we should assume that these are between zero and 100% and report them as a sensitivity analysis.
 
 
 
