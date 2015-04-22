@@ -1,7 +1,7 @@
 # Piece 1
 
-GRAPH Lead: Peter Muennig  
-Team Members: Ryan Quan, Jacquie Cheung
+GRAPH Lead: Peter Muennig (pm124@columbia.edu)  
+Team Members: Ryan Quan (rcq2102@columbia.edu), Jacquie Cheung (jc3987@columbia.edu)
 
 ## Deliverable Descriptions
 
