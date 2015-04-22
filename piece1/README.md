@@ -17,6 +17,8 @@ Team Members: Ryan Quan (rcq2102@columbia.edu), Jacquie Cheung (jc3987@columbia.
 
 ### DALYs Estimation
 
+For a more thorough explanation of the methodology used to estimate DALYs for NYC, please refer to the [technical report](http://rpubs.com/rcquan/roadmap-dalys) in the `dalys` directory.
+
 #### Data Collection
 
 The DALY is a year of life lived in perfect health and consists of two elements: 1) YLL (years of life lost) and 2) YLD (years lost to disability). Data will be provided by the DOH and will be updated using the 2010 Global Burden of Disease (GBD) estimates.
