@@ -6,12 +6,14 @@ Project to estimate disability-adjusted life years for selected conditions in Ne
 
 ## Files
 
-* `R` - contains helper R functions for DALY estimation
+* `code` - contains relevant R code for DALY estimation
+  * `main.R` - main script to run DALY estimations
+  * `roadmap_daly_brief.Rmd`
+  * `roadmap_daly_technical.Rmd`
 * `data` - contains primary data sources for DALY estimation
 * `plots` - contains resulting plot outputs from `main.R`
-* `results` - contains comma-delimited file outputs from `main.R`
+* `tables` - contains comma-delimited file outputs from `main.R`
 * `docs` - contains write-up (technical and brief versions)
-* `main.R` - main script to run DALY estimations
 * `roadmap_daly_database.xlsx` - workbook of DALY outputs from `results`
-* `roadmap_daly_brief.Rmd`
-* `roadmap_daly_technical.Rmd`
+
+For the fully reproducible code directory using restricted databases, please email Ryan Quan at rcq2102@columbia.edu.

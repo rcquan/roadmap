@@ -1,7 +1,7 @@
 # Piece 1
 
-GRAPH Lead: Peter Muennig  
-Team Members: Ryan Quan, Jacquie Cheung
+GRAPH Lead: Peter Muennig (pm124@columbia.edu)  
+Team Members: Ryan Quan (rcq2102@columbia.edu), Jacquie Cheung (jc3987@columbia.edu)
 
 ## Deliverable Descriptions
 
@@ -16,6 +16,8 @@ Team Members: Ryan Quan, Jacquie Cheung
 ## Methodology Overview
 
 ### DALYs Estimation
+
+For a more thorough explanation of the methodology used to estimate DALYs for NYC, please refer to the [technical report](http://rpubs.com/rcquan/roadmap-dalys) in the `dalys` directory.
 
 #### Data Collection
 
